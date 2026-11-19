@@ -28,11 +28,11 @@ i=1
 while i<rows:
     words.append(data[i,columns-1])
     i+=1
-i=columns-1
+i=columns-2
 while i>=0:
     words.append(data[rows-1,i])
     i=i-1
-i=rows-1
+i=rows-2
 while i>=1:
     words.append(data[i,0])
     i=i-1
