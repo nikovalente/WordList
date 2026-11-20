@@ -118,19 +118,19 @@ rows, columns = data.shape
 words_combo=[]
 i=0
 while i<columns-1:
-    words_combo.append(data[0,i]+data[0,i+1])
+    words_combo.append(data[0,i].strip()+data[0,i+1].strip())
     i+=1
 i=0
 while i<rows-1:
-    words_combo.append(data[i,columns-1]+data[i+1,columns-1])
+    words_combo.append(data[i,columns-1].strip()+data[i+1,columns-1].strip())
     i+=1
 i=columns-1
 while i>=1:
-    words_combo.append(data[rows-1,i]+data[rows-1,i-1])
+    words_combo.append(data[rows-1,i].strip()+data[rows-1,i-1].strip())
     i=i-1
 i=rows-1
 while i>=1:
-    words_combo.append(data[i,0]+data[i-1,0])
+    words_combo.append(data[i,0].strip()+data[i-1,0].strip())
     i=i-1
 print(words_combo)
 
@@ -139,19 +139,19 @@ rows, columns = data.shape
 words_combo=[]
 i=0
 while i<columns-1:
-    words_combo.append(data[0,i]+data[0,i+1])
+    words_combo.append(data[0,i].strip()+data[0,i+1].strip())
     i+=1
 i=0
 while i<rows-1:
-    words_combo.append(data[i,columns-1]+data[i+1,columns-1])
+    words_combo.append(data[i,columns-1].strip()+data[i+1,columns-1].strip())
     i+=1
 i=columns-1
 while i>=1:
-    words_combo.append(data[rows-1,i]+data[rows-1,i-1])
+    words_combo.append(data[rows-1,i].strip()+data[rows-1,i-1].strip())
     i=i-1
 i=rows-1
 while i>=1:
-    words_combo.append(data[i,0]+data[i-1,0])
+    words_combo.append(data[i,0].strip()+data[i-1,0].strip())
     i=i-1
 print(words_combo)
 
@@ -160,19 +160,19 @@ rows, columns = data.shape
 words_combo=[]
 i=0
 while i<columns-1:
-    words_combo.append(data[0,i]+data[0,i+1])
+    words_combo.append(data[0,i].strip()+data[0,i+1].strip())
     i+=1
 i=0
 while i<rows-1:
-    words_combo.append(data[i,columns-1]+data[i+1,columns-1])
+    words_combo.append(data[i,columns-1].strip()+data[i+1,columns-1].strip())
     i+=1
 i=columns-1
 while i>=1:
-    words_combo.append(data[rows-1,i]+data[rows-1,i-1])
+    words_combo.append(data[rows-1,i].strip()+data[rows-1,i-1].strip())
     i=i-1
 i=rows-1
 while i>=1:
-    words_combo.append(data[i,0]+data[i-1,0])
+    words_combo.append(data[i,0].strip()+data[i-1,0].strip())
     i=i-1
 print(words_combo)
 
@@ -181,18 +181,18 @@ rows, columns = data.shape
 words_combo=[]
 i=0
 while i<columns-1:
-    words_combo.append(data[0,i]+data[0,i+1])
+    words_combo.append(data[0,i].strip()+data[0,i+1].strip())
     i+=1
 i=0
 while i<rows-1:
-    words_combo.append(data[i,columns-1]+data[i+1,columns-1])
+    words_combo.append(data[i,columns-1].strip()+data[i+1,columns-1].strip())
     i+=1
 i=columns-1
 while i>=1:
-    words_combo.append(data[rows-1,i]+data[rows-1,i-1])
+    words_combo.append(data[rows-1,i].strip()+data[rows-1,i-1].strip())
     i=i-1
 i=rows-1
 while i>=1:
-    words_combo.append(data[i,0]+data[i-1,0])
+    words_combo.append(data[i,0].strip()+data[i-1,0].strip())
     i=i-1
 print(words_combo)
